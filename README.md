@@ -24,20 +24,19 @@
 ## Preview images
 
 <div align="center">
-  <img src="img/dimple-1.1-deformed.jpg" height="280px">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="img/dimple-1.11-deformed.jpg" height="280px">
+  <img src="img/preview1.jpg" width="80%">
 </div>
 
 <br>
+
+<div align="center">
+  <img src="img/preview4.jpg" width="80%">
+</div>
+
 <br>
 
 <div align="center">
-  <img src="img/dimple-plot-fine.jpg" height="195px">
-  &nbsp;&nbsp;&nbsp;
-  <img src="img/matrix-demo.jpg" height="195px">
-  &nbsp;&nbsp;&nbsp;
-  <img src="img/fourier-13-v4-dfield.jpg" height="215px">
+  <img src="img/preview3.jpg" width="80%">
 </div>
 
 <br>
