@@ -1,9 +1,14 @@
 <div align="center">
+  <img src="img/logo-unipd.png" height="80" alt="Università degli Studi di Padova">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="img/logo-dii.png" height="80" alt="Dipartimento di Ingegneria Industriale">
+  
   <h1>Buckling load on composite cylindrical shells: localized dimple defects and Fourier analysis for extended imperfection fields</h1>
   
   Master's Degree in Aerospace Engineering — Università degli Studi di Padova
   
   *Project realized in collaboration with Alessandro Riggio*
+  <br><br>
   
   [![Language](https://img.shields.io/badge/Language-English-blue.svg)](#)
   [![Course](https://img.shields.io/badge/Course-Aerospace_Structures_Laboratory-orange.svg)](#)
@@ -16,12 +21,34 @@
 - [Presentation (PPTX)](https://raw.githubusercontent.com/emanuele-cason/as-lab-final-report/main/Presentation.pptx)
 
 ---
+## Preview images
+
+<div align="center">
+  <img src="img/dimple-1.1-deformed.jpg" height="280px">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="img/dimple-1.11-deformed.jpg" height="280px">
+</div>
+
+<br>
+<br>
+
+<div align="center">
+  <img src="img/dimple-plot-fine.jpg" height="195px">
+  &nbsp;&nbsp;&nbsp;
+  <img src="img/matrix-demo.jpg" height="195px">
+  &nbsp;&nbsp;&nbsp;
+  <img src="img/fourier-13-v4-dfield.jpg" height="215px">
+</div>
+
+<br>
+
+---
 
 ## Abstract
 
 This project investigates the buckling load sensitivity of composite cylindrical shells subjected to localized dimple-type and Fourier-generated geometric imperfections. Utilizing an integrated approach with parametric modeling, linear and nonlinear buckling analyses were conducted using MSC Patran and Nastran SOL-400. Regarding the localized defects, the nonlinear analysis highlights that the dimple depth is the dominant parameter in reducing the critical load, lowering the Knockdown Factor (KDF) significantly.
 
-Furthermore, the effect of the generic, extended imperfection field was analyzed with a Fourier series method. In particular, a 2D Gaussian approach was used to select families of nearby Fourier components. The analysis highlighted a peculiar decreasing, constant, and then increasing tendency of the critical load if the equivalent wavenumber is increased. This suggests the existence of a range of dangerous wavenumbers that affect more heavily the buckling load. Finally, a prevalence of axial wave components causes a weakening of the shell, whereas a more relevant presence of circumferential components results in a stiffening effect, increasing the primary instability load.
+Furthermore, the effect of the generic, extended imperfection field was analyzed with a Fourier series method. In particular, a 2D Gaussian approach was used to select families of nearby Fourier components. The analysis highlighted a peculiar decreasing, constant, and then increasing tendency of the critical load if the equivalent wavenumber is increased. This suggests the existence of a range of dangerous wavenumbers that affect the buckling load more heavily. Finally, a prevalence of axial wave components causes a weakening of the shell, whereas a more relevant presence of circumferential components results in a stiffening effect, increasing the primary instability load.
 
 ---
 
@@ -29,4 +56,4 @@ Furthermore, the effect of the generic, extended imperfection field was analyzed
 
 Il progetto analizza la sensibilità del carico critico (buckling) di gusci cilindrici in materiale composito soggetti a imperfezioni geometriche localizzate di tipo "dimple" e a campi di imperfezione generati tramite serie di Fourier. Utilizzando un approccio integrato con modellazione parametrica, sono state condotte analisi di instabilità lineari e non lineari tramite MSC Patran e Nastran SOL-400. Per quanto riguarda i difetti localizzati, l'analisi non lineare evidenzia che la profondità del difetto è il parametro dominante nella riduzione del carico critico, abbassando significativamente il Knockdown Factor (KDF).
 
-Inoltre, l'effetto del campo di imperfezione esteso è stato analizzato con un approccio basato su serie di Fourier. Nello specifico, è stato utilizzato un approccio gaussiano 2D per selezionare famiglie di componenti di Fourier vicine. L'analisi ha evidenziato una tendenza decrescente, costante e infine crescente del carico critico all'aumentare del numero d'onda equivalente, suggerendo l'esistenza di un intervallo di numeri d'onda dannosi che incidono più pesantemente sul carico critico. Infine, è stata osservata una tendenza all'indebolimento del campione in prevalenza di componenti assiali, mentre una presenza più rilevante di componenti circonferenziali genera un effetto irrigidente, incrementando il carico di instabilità primaria.
+Inoltre, l'effetto del campo di imperfezione esteso è stato analizzato con un approccio basato su serie di Fourier. Nello specifico, è stato utilizzato un approccio gaussiano 2D per selezionare famiglie di componenti di Fourier vicine. L'analisi ha evidenziato una tendenza decrescente, costante e infine crescente del carico critico all'aumentare del numero d'onda equivalente, suggerendo l'esistenza di un intervallo di numeri d'onda dannosi che incidono più pesantemente sul carico critico. Infine, è stata osservata una tendenza all'indebolimento del modello in prevalenza di componenti assiali, mentre una presenza più rilevante di componenti circonferenziali genera un effetto irrigidente, incrementando il carico di instabilità primaria.
